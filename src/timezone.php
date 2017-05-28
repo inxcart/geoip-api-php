@@ -1,5 +1,9 @@
 <?php
 
+if (function_exists('geoip_country_code_by_name')) {
+  return;  
+}
+
 /**
  * Get time zone
  * @param string $country
