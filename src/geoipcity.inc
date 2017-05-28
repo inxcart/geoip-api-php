@@ -19,6 +19,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307    USA
  */
 
+if (function_exists('geoip_country_code_by_name')) {
+  return;  
+}
 
 define("FULL_RECORD_LENGTH", 50);
 
