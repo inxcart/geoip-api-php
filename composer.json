@@ -1,5 +1,5 @@
 {
-    "name": "geoip/geoip",
+    "name": "thirtybees/geoip",
     "description": "MaxMind GeoIP PHP API",
     "keywords": ["geoip", "geolocation", "maxmind"],
     "homepage": "http://dev.maxmind.com/geoip/legacy/downloadable",
@@ -10,6 +10,11 @@
             "name": "MaxMind, Inc.",
             "email": "support@maxmind.com",
             "homepage": "http://www.maxmind.com/"
+        },
+        {
+            "name": "thirty bees",
+            "email": "contact@thirtybees.com",
+            "homepage": "https://thirtybees.com/"
         }
     ],
     "autoload": {
@@ -18,9 +23,6 @@
         "src/geoipcity.inc",
         "src/timezone.php"
         ]
-    },
-    "conflict": {
-        "ext-geoip": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
