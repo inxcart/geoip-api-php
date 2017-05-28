@@ -19,6 +19,10 @@
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
+ 
+if (function_exists('geoip_country_code_by_name')) {
+  return;  
+}
 
 define("GEOIP_COUNTRY_BEGIN", 16776960);
 define("GEOIP_STATE_BEGIN_REV0", 16700000);
