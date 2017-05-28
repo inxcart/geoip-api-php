@@ -6,7 +6,7 @@ This API is for the GeoIP Legacy format (dat). To read the MaxMind DB format
 (mmdb) used by GeoIP2, please see
 [our GeoIP2 PHP API](https://github.com/maxmind/GeoIP2-php).
 
-This package has been forked in order to make it work with the `geoip` PHP extension. In case the `geoip` extension is loaded an active this library will not become active, thus making it safe to include with frameworks that have to support a multitude of platforms.
+This package has been forked in order to make it work with the `geoip` PHP extension. In case the `geoip` extension is loaded and active this library will not become active, thus making it safe to include with frameworks that have to support a multitude of platforms.
 
 ## Requirements ##
 
