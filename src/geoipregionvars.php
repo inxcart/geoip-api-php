@@ -1,10 +1,6 @@
 <?php
 // Copyright 2016 MaxMind, Inc. All Rights Reserved
 
-if (function_exists('geoip_country_code_by_name')) {
-  return;  
-}
-
 global $GEOIP_REGION_NAME;
 $GEOIP_REGION_NAME = array (
   'AD' => 

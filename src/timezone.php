@@ -1,7 +1,7 @@
 <?php
 
-if (function_exists('geoip_country_code_by_name')) {
-  return;  
+if (function_exists('get_time_zone')) {
+  return;
 }
 
 /**
